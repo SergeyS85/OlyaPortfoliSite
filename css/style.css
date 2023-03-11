@@ -9,12 +9,13 @@
 .row, .row > * { --bs-gutter-x: 1.25rem; }*/
 
 /* FONTS LOAD SECTION */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
-@font-face{
-	src: url();
-	font-family: sans-serif;
+/*@font-face{
+	src: url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');;
+	font-family: "Noto";
 }
-
+*/
 /* GENERAL CSS SETTINGS */
 
 ::placeholder { color: #666; }
@@ -29,14 +30,15 @@ input:required:valid, textarea:required:valid { border-color: green; }
 }
 
 body {
+	font-family: "Roboto";
 	color: white;
 	width: 100%;
 	height: 100%; 
 	background-color: #fff;
-	position: relative;
 	overflow-x: hidden;
 	background: url(../img/background_body_withplashka.jpg) no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 footer,aside,header,
@@ -83,41 +85,102 @@ img{
 	clear: both;
 }
 .wrapper{
-	height: 100%;
+	min-height: 100%;
 	width: 100%;
-	overflow-x: hidden;
-	overflow-y: scroll;
+	/*overflow: hidden;*/
+	/*height: 2000px;*/
 }
 .container{
 	margin: 0 auto; 
-	width:100%;
-	min-height: 100%;
-	max-width: 1430px;
+	max-width: 80vw;
 	padding-left: 10px;
 	padding-right: 10px;
-	height: 100vh;
 }
+
           /* //////// main user style /////////*/
 
+/*////////  HEADER  ///////*/
 .header{
+	display: flex;
+	margin: 0 auto;
   height: 350px;
-  width: 100%;
-  background: url(../img/risunok-yarkogo-detskogo-veselogo-denka.jpg) no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: space-between;
-  /*align-content: center;*/
+  width: 80vw;
+  background: url(../img/header_background.jpg) no-repeat;
+  background-position: 0 60%;
+  background-size: cover; 
   vertical-align: color;
-  box-shadow: 0 0 20px rgba(0,0,0,.5);
+  box-shadow: 0 0 20px 5px rgba(25,25,25,.5);
+  border-bottom: 1px solid #eceff4
 }
-.poster{
+.container_header{
+	min-height: 100%;
+	display: flex;
+	justify-content: space-between;
+  align-items: center;
+}
+.avatar_block{
 	height: 300px;
 	width: 225px;
-	margin-top: 30px;
-	margin-left: 20px;
+}
+.avatar{
+	border: 2px solid white;
+}
+.title_block{
+	max-width: 80%;
 }
 .title_site{
 	text-align: center;
-	color: #4c566a;
+	color: #eceff4;
 	font-size: 60px;
+	margin-left: 20px;
+	font-style: italic;
+}
+.container_menu{
+	backdrop-filter: blur(5px);
+	background-color: rgba(165,216,255,0.5);
+	box-shadow: 0 0 10px 1px rgba(73,80,87,0.6);
+}
+.menu{
+	display: flex;
+	font-size: 30px;
+	justify-content: center;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-bottom: 5px;	
+	font-style: italic;
+}
+.menu li{
+	position: relative;
+	margin-right: 20px;
+	border-bottom: 2px solid rgba(0,0,0,0);
+}
+.menu li:after{
+  width: 0;
+  height: 1px;
+  background-color: rgba(76,86,106,1);
+  transition: 0.4s;
+}
+li.main_anchor:after{
+  width: 100%;
+  height: 1px;
+  background-color: rgba(76,86,106,1);
+}
+.menu li:hover:after{
+	width: 100%;	
+}
+/* //////// SECTION MAIN_CONTENT ////////*/
+.container-main_content{
+	padding: 50px;
+	color: #000;
+	background-color: rgba(255,255,255,0.5);
+	backdrop-filter: blur(5px);
+}
+.sticky_menu {
+	margin: 0 auto;
+  position: fixed;
+  top: 0;
+  /*left: 9.6%;*/
+  z-index: 10;
+  /*left: 0;*/
+  width: 100%;
 }
