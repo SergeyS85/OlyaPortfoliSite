@@ -15,3 +15,57 @@ body{
   height: 1px;
   background-color: rgba(76,86,106,1);
 }
+
+.form_container{
+	max-width: 60%;
+	min-width: 340px;
+	height: 50%;
+	background: url(../img/forma_contacts_background.jpg) no-repeat;
+	background-size: cover;
+	/*margin-top: 100px;*/
+	filter: grayscale(0%);
+	transition: 1s;
+	border: 3px solid rgba(165,216,255,0);
+}
+.form_container:hover{
+	/*filter: grayscale(80%);*/
+	border: 3px solid rgba(165,216,255,1);
+}
+.form_contacts{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,0.3);
+	backdrop-filter: blur(0px);
+	padding: 20px;
+	transition: 1s;
+}
+.form_contacts:hover{
+	backdrop-filter: blur(4px);
+}
+.form_contacts input{
+	width: 300px;
+	height: 40px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	font-family: Roboto;
+	font-size: 20px;
+	color: rgba(76,86,106,1);
+	border: 1px solid rgba(165,216,255,1);;
+}
+.form_contacts input[type="submit"]{
+	width: 200px;
+	padding: 0;
+	cursor: pointer;
+	transition: 0.3s;
+	margin-top: 10px;
+}
+textarea{
+	padding-left: 20px;
+	font-family: Roboto;
+	font-size: 20px;
+	color: rgba(76,86,106,1);
+	resize: none;
+	width: 70%;
+	min-width: 300px;
+	height: 200px;
+}

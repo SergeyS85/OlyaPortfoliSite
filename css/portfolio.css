@@ -15,3 +15,9 @@ body{
   height: 1px;
   background-color: rgba(76,86,106,1);
 }
+.sertificat{
+	width: 380px;
+	height: 265px;
+	background: url(../img/sertificat.png);
+	background-size: cover;
+}
