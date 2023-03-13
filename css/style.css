@@ -206,7 +206,7 @@ li.main_anchor:after{
 	color: #000;
 	background-color: rgba(255,255,255,0.5);
 	backdrop-filter: blur(5px);
-	height: 1000px;
+	min-height: 1000px;
 }
 .container-main_content img{
 	width: 400px;

@@ -23,3 +23,53 @@ body{
 .header .title_site{
 	font-size: 70px;
 }
+
+/*////// METODICHKA_CONTENT ///////*/
+
+.metodichka_content{
+	color: #2e3440;
+	font-size: 30px;
+}
+.metodichka_content li{
+	padding: 8px 50px;
+	transition: .3s;
+}
+.metodichka_content li:hover{
+	color:#5e81ac;
+}
+
+.metodichka_content li:nth-child(1){
+	background: url(../img/metodika_1.png) no-repeat;
+	background-size: 50px 50px;
+}
+.metodichka_content li:nth-child(2){
+	background: url(../img/computer_2.png) no-repeat;
+	background-size: 50px 50px;
+}
+.metodichka_content li:nth-child(3){
+	background: url(../img/mediatichnologi_3.png) no-repeat;
+	background-size: 50px 50px;
+}
+.metodichka_content li:nth-child(4){
+	background: url(../img/przentaciya_4.png) no-repeat;
+	background-size: 50px 50px;
+}
+.metodichka_content li:nth-child(5){
+	background: url(../img/vzaimodeystvie_5.png) no-repeat;
+	background-size: 50px 50px;
+}
+.metodika{
+	margin-top: 100px;
+}
+.metodika p{
+	font-size: 40px;
+	font-style: italic;
+	color: #2e3440;
+}
+.metodika span{
+	color: #000;
+	font-size: 20px;
+}
+.main_content span{
+	color: white;
+}
