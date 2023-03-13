@@ -15,3 +15,15 @@ body{
   height: 1px;
   background-color: rgba(76,86,106,1);
 }
+.header{
+	background: url(../img/header_media_background.jpg) no-repeat;
+	background-position: 0 60%;
+  background-size: cover;
+}
+.header .title_site{
+	font-size: 70px;
+}
+p{
+	color: #000;
+	
+}

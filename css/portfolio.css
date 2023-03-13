@@ -21,3 +21,11 @@ body{
 	background: url(../img/sertificat.png);
 	background-size: cover;
 }
+.header{
+	background: url(../img/header_portfolio_background.jpg) no-repeat;
+	background-position: 0 20%;
+  background-size: cover;
+}
+.header .title_site{
+	font-size: 70px;
+}

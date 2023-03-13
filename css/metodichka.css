@@ -15,3 +15,11 @@ body{
   height: 1px;
   background-color: rgba(76,86,106,1);
 }
+.header{
+	background: url(../img/header_metodichka_background.jpg) no-repeat;
+	background-position: 0 90%;
+  background-size: cover;
+}
+.header .title_site{
+	font-size: 70px;
+}
