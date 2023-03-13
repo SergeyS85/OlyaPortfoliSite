@@ -208,24 +208,16 @@ li.main_anchor:after{
 	backdrop-filter: blur(5px);
 	height: 1000px;
 }
-/*.container-main_content img{
-	width: 200px;
-	float: left;
-	height: 300px;
+.container-main_content img{
+	width: 400px;
+	float: right;
+	/*height: 300px;*/
 	margin-right: 30px;
-}*/
+}
 .container-main_content p{
 	font-size: 40px;
-	float: left;
+	/*float: right;*/
 	font-style: italic;
 	color: #3b5bdb;
 }
-.sticky_menu {
-	/*margin: 0 auto;*/
-  position: fixed;
-  top: 0;
-  /*left: 9.6%;*/
-  z-index: 10;
-  /*left: 0;*/
-  width: 100%;
-}
+

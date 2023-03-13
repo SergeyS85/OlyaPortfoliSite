@@ -28,6 +28,7 @@ body{
 	height: 50%;
 	background: url(../img/forma_contacts_background.jpg) no-repeat;
 	background-size: cover;
+	background-position: 0 60%;
 	/*margin-top: 100px;*/
 	filter: grayscale(0%);
 	transition: 1s;
