@@ -21,13 +21,14 @@
 //  console.log(rect.top - window.scrollY)
 // })
 
-//Smooth scroll gsap
-// gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
-// ScrollSmoother.create({
-// 	wrapper: '.wrapper',
-// 	content: '.content',
-// 	smooth: 1.1,
-// 	effects: false
-// })
+// Smooth scroll gsap
+
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
+ScrollSmoother.create({
+	wrapper: '.wrapper',
+	content: '.content',
+	smooth: 1.1,
+	effects: false
+})
 
 

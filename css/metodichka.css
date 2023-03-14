@@ -3,12 +3,19 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: 0 50%;
+	position: relative;
+}
+.title_block{
+	max-width: 100%;
 }
 .title_site{
 	color: #fff;
 }
 .menu{
 	color: #fff;
+}
+.menu li:nth-child(3){
+	color: rgba(76,86,106,1);
 }
 .menu li:nth-child(3):after{
   width: 100%;
@@ -25,7 +32,9 @@ body{
 }
 
 /*////// METODICHKA_CONTENT ///////*/
-
+.container-main_content{
+	background-color: rgba(255,255,255,.8);
+}
 .metodichka_content{
 	color: #2e3440;
 	font-size: 30px;
@@ -72,4 +81,21 @@ body{
 }
 .main_content span{
 	color: #000;
+}
+.return_page_up{
+	cursor: pointer;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 50;
+	width: 50px;
+	height: 50px;
+	color: #fff;
+	background: url(../img/icon/return.png) no-repeat;
+	background-size: cover;
+	transition: 0.4s;
+}
+.return_page_up:hover{
+	/*transform: scale(1.1);*/
+	transform: matrix(1.1, 0, 0, 1.1, 0, -5);
 }

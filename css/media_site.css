@@ -4,11 +4,17 @@ body{
 	background-size: cover;
 	background-position: 0 50%;
 }
+.title_block{
+	max-width: 100%;
+}
 .title_site{
 	color: #fff;
 }
 .menu{
 	color: #fff;
+}
+.menu li:nth-child(4){
+	color: rgba(76,86,106,1);
 }
 .menu li:nth-child(4):after{
   width: 100%;

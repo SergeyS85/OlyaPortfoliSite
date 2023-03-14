@@ -9,12 +9,18 @@ body{
 	background-position: 0 70%;
   background-size: cover;
 }
+.title_block{
+	max-width: 100%;
+}
 .header .title_site{
 	color: #fff;
 	font-size: 70px;
 }
 .menu{
 	color: #fff;
+}
+.menu li:nth-child(5){
+	color: rgba(76,86,106,1);
 }
 .menu li:nth-child(5):after{
   width: 100%;
@@ -26,7 +32,7 @@ body{
 	max-width: 60%;
 	min-width: 340px;
 	height: 50%;
-	background: url(../img/title_form/forma_contacts_background.jpg) no-repeat;
+	background: url(../img/title_form/forma_contacts_background.webp) no-repeat;
 	background-size: cover;
 	background-position: 0 60%;
 	/*margin-top: 100px;*/
@@ -35,7 +41,6 @@ body{
 	border: 3px solid rgba(165,216,255,0);
 }
 .form_container:hover{
-	/*filter: grayscale(80%);*/
 	border: 3px solid rgba(165,216,255,1);
 }
 .form_contacts{
@@ -78,7 +83,7 @@ textarea{
 }
 p.info{
 	color: #000;
-	font-size: 20px;
+	font-size: 25px;
 	font-family: "Roboto", sans-serif;
 	font-style: none;
 	margin-bottom: 20px;

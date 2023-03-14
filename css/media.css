@@ -20,7 +20,7 @@
 
 /* sm <= Medium (md) */
 @media (max-width : 768px) {
-	.title_site{
+	p.title_site{
 		font-size: 40px;
 	}
 }
@@ -30,18 +30,24 @@
 	.container_header{
 		flex-direction: column;
 	}
-  .title_site{
+  .menu{
+    text-align: center;
+  }
+  .title_block{
+    /*max-width: 10%;*/
+  }
+  /*.title_site{
 		font-size: 25px;
 		margin-top: 20px;
 		margin-bottom: 20px;
-	}
+	}*/
 	.container_socsety{
   	top: 5px;
   	left: 50%;
   	transform: translateX(-50%);
   }
   .container-main_content{
-  	padding: 0;
+  	padding: 30px;
   	font-size: 30px;
   	text-align: center;
   }
@@ -54,7 +60,10 @@
   	/*height: 100px;*/
   }
   .header .title_site{
-	  font-size: 30px;
+	  font-size: 40px;
+  }
+  p.info{
+    font-size: 25px;
   }
 }
 

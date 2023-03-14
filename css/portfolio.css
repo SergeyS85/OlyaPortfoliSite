@@ -1,14 +1,20 @@
 body{
-	background: url(../img/background_content/portfolio_background.jpg) no-repeat;
+	background: url(../img/background_content/portfolio_background.webp) no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: 0 50%;
+}
+.title_block{
+	max-width: 100%;
 }
 .title_site{
 	color: #fff;
 }
 .menu{
 	color: #fff;
+}
+.menu li:nth-child(2){
+	color: rgba(76,86,106,1);
 }
 .menu li:nth-child(2):after{
   width: 100%;
