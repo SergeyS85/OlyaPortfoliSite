@@ -37,7 +37,7 @@ body {
 	height: 100%; 
 	background-color: #fff;
 	overflow-x: hidden;
-	background: url(../img/background_body_withplashka.jpg) no-repeat;
+	background: url(../img/background_content/background_body_withplashka.jpg) no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -107,7 +107,7 @@ img{
 	margin: 0 auto;
   min-height: 350px;
   width: 80vw;
-  background: url(../img/risunok-yarkogo-detskogo-veselogo-denka.jpg) no-repeat;
+  background: url(../img/header_banner/header_main_title.jpg) no-repeat;
   background-position: 0 60%;
   background-size: cover; 
   vertical-align: color;
@@ -182,12 +182,12 @@ li.main_anchor:after{
 }
 
 .container_socsety a:nth-child(1){
-	background: url(../img/vk.png) no-repeat;
+	background: url(../img/icon/vk.png) no-repeat;
 	background-position: 50% 50%;
 	background-size: cover;
 }
 .container_socsety a:nth-child(2){
-	background: url(../img/odnoclassniki.png) no-repeat;
+	background: url(../img/icon/odnoclassniki.png) no-repeat;
 	background-position: 50% 50%;
 	background-size: cover;
 }

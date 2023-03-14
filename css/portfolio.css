@@ -1,5 +1,5 @@
 body{
-	background: url(../img/portfolio_background.jpg) no-repeat;
+	background: url(../img/background_content/portfolio_background.jpg) no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: 0 50%;
@@ -18,11 +18,11 @@ body{
 .sertificat{
 	width: 380px;
 	height: 265px;
-	background: url(../img/sertificat.png);
-	background-size: cover;
+	/*background: url(../img/sertificat.png);
+	background-size: cover;*/
 }
 .header{
-	background: url(../img/header_portfolio_background.jpg) no-repeat;
+	background: url(../img/header_banner/header_portfolio_background.jpg) no-repeat;
 	background-position: 0 20%;
   background-size: cover;
 }
