@@ -41,6 +41,7 @@ body{
 }
 .metodichka_content li{
 	padding: 8px 50px;
+	padding-right: 0;
 	transition: .3s;
 }
 .metodichka_content li:hover{
