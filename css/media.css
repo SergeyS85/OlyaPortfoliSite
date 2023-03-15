@@ -20,7 +20,7 @@
 
 /* sm <= Medium (md) */
 @media (max-width : 768px) {
-	p.title_site{
+	.header .title_site{
 		font-size: 40px;
 	}
 }
@@ -30,8 +30,15 @@
   .metodichka_content{
     font-size: 25px;
   }
+  .container{
+    max-width: 95vw;
+  }
+  .header{
+    width: 95vw;
+  }
 	.container_header{
 		flex-direction: column;
+
 	}
   .menu{
     text-align: center;
