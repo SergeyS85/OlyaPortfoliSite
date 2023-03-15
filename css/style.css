@@ -9,7 +9,7 @@
 .row, .row > * { --bs-gutter-x: 1.25rem; }*/
 
 /* FONTS LOAD SECTION */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');*/
 
 /*@font-face{
 	src: url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');;
@@ -30,7 +30,7 @@ input:required:valid, textarea:required:valid { border-color: green; }
 }
 
 body {
-	font-family: "Roboto";
+	font-family: "Roboto",serif;
 	position: relative;
 	color: white;
 	width: 100%;
@@ -89,7 +89,6 @@ img{
 	min-height: 100%;
 	width: 100%;
 	overflow: hidden;
-	/*height: 2000px;*/
 }
 .container{
 	margin: 0 auto; 
@@ -216,7 +215,7 @@ li.main_anchor:after{
 
 .container-main_content{
 	/*position: relative;*/
-	
+
 	padding: 50px;
 	/*display: flex;*/
 	color: #000;
