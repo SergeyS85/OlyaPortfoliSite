@@ -9,13 +9,13 @@
 .row, .row > * { --bs-gutter-x: 1.25rem; }*/
 
 /* FONTS LOAD SECTION */
-/*@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
 /*@font-face{
 	src: url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');;
 	font-family: "Noto";
-}
-*/
+}*/
+
 /* GENERAL CSS SETTINGS */
 
 ::placeholder { color: #666; }
@@ -30,7 +30,7 @@ input:required:valid, textarea:required:valid { border-color: green; }
 }
 
 body {
-	font-family: "Roboto",serif;
+	font-family: "Noto",serif;
 	position: relative;
 	color: white;
 	width: 100%;
