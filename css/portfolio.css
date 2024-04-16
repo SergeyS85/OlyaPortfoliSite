@@ -4,6 +4,17 @@ body{
 	background-size: cover;
 	background-position: 0 50%;
 }
+.portfolio__container{
+	display: flex;
+}
+.portfolio__container>a{
+	margin-right: 20px;
+	transition: .2s;
+}
+.portfolio__container>a:hover{
+	
+	transform: scale(2.5);
+}
 .title_block{
 	max-width: 100%;
 }
